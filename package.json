@@ -1,0 +1,15 @@
+{
+  "name": "atom-quick-select",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/quick-select.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Josa Gesell <josa@gesell.me>",
+  "license": "MIT",
+  "dependencies": {
+    "atom-select-list": "^0.2.0",
+    "fuzzaldrin": "^2.1.0"
+  }
+}
