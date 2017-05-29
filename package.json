@@ -8,6 +8,7 @@
   },
   "author": "Josa Gesell <josa@gesell.me>",
   "license": "MIT",
+  "repository": "https://github.com/josa42/atom-quick-select",
   "dependencies": {
     "atom-select-list": "^0.2.0",
     "fuzzaldrin": "^2.1.0"
