@@ -55,6 +55,10 @@ if (selection) {
 }
 ```
 
+## Atom packages using this library
+
+- [readme](https://atom.io/packages/readme)
+
 ## License
 
 [The MIT License](LICENSE.md)
