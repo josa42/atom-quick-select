@@ -25,9 +25,9 @@ if (selection) {
 import quickSelect from 'atom-quick-select';
 
 const selection = await quickSelect([
-  { label: 'One' description: 'Number 1' },
-  { label: 'Tow' description: 'Number 2' },
-  { label: 'Three' description: 'Number 3' }
+  { label: 'One', description: 'Number 1' },
+  { label: 'Tow', description: 'Number 2' },
+  { label: 'Three', description: 'Number 3' }
 ])
 if (selection) {
   console.log('selection', selection)
@@ -35,6 +35,25 @@ if (selection) {
 ```
 
 ![](https://raw.github.com/josa42/atom-quick-select/master/.github/screenshot-detailed.png)
+
+## Example: Custom Normalization
+
+```JavaScript
+'use babel';
+
+import quickSelect from 'atom-quick-select';
+
+const selection = await quickSelect([
+  { name: 'One' },
+  { name: 'Tow' },
+  { name: 'Three' }
+], {
+  normalizeItem: ({ name }) => { label: name }
+})
+if (selection) {
+  console.log('selection', selection)
+}
+```
 
 ## License
 
