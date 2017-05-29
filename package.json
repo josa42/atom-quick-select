@@ -4,12 +4,20 @@
   "description": "",
   "main": "lib/quick-select.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "eslint ."
   },
   "author": "Josa Gesell <josa@gesell.me>",
   "license": "MIT",
   "dependencies": {
     "atom-select-list": "^0.2.0",
     "fuzzaldrin": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
